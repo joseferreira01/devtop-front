@@ -35,7 +35,7 @@ link do site
 ```
 
 ---
-- [xódigo da API ](https://github.com/joseferreira01/devtop.git)
+- [Código fonte da API ](https://github.com/joseferreira01/devtop.git)
 
 <h3 align="center">Desenvolvido por  💜  José Ferreira </h3>
 # devtop-front
