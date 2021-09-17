@@ -22,10 +22,10 @@ link do site
 ```bash
 
     // Clonar repositório
-    $ git clone https://github.com/joseferreira01/teste-socin
+    $ git clone https://github.com/joseferreira01/devtop-front.git
 
     // Acessar diretório
-    $ cd tests
+    $ cd devtop-front
 
     // Instalar dependências
     $ yarn
@@ -35,6 +35,7 @@ link do site
 ```
 
 ---
+- [xódigo da API ](https://github.com/joseferreira01/devtop.git)
 
 <h3 align="center">Desenvolvido por  💜  José Ferreira </h3>
 # devtop-front
