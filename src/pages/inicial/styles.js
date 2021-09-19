@@ -1,9 +1,9 @@
 
 import styled from 'styled-components';
 export const Register = styled.a`
-    width: 50%;
+    width: 30%;
     height: 40px;
-    margin-left: 100%;
+    margin-left: 180%;
     margin-top: 5%;
 
     box-shadow: none;
@@ -20,7 +20,7 @@ export const Register = styled.a`
     }
 
     :active{
-        background: #006400;
+        background: #ff;
     }
 `;
 export const c = styled.button`

@@ -23,7 +23,9 @@ const Login = () => {
                     localStorage.setItem('app-token', data)
                     history.push('/')
                 } else{
-                    alert("e,ail ou senha incorretos")
+                    console.log('erro logim')
+                
+                    
                 }
             })
     }

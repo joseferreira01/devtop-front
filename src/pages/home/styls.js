@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export const Logout = styled.a`
     width: 30%;
     height: 40px;
-    margin-left: 175%;
+    margin-left: 185%;
     margin-top: 5%;
 
     box-shadow: none;
