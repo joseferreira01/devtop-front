@@ -1,15 +1,14 @@
 
 import styled from 'styled-components';
-export const Register = styled.button`
+export const Register = styled.a`
     width: 50%;
     height: 40px;
-    margin-left: 165%;
+    margin-left: 100%;
     margin-top: 5%;
 
     box-shadow: none;
     border: none;
 
-    background: red;
     border-radius: 4px;
 
     font-weight: 500;
@@ -47,6 +46,10 @@ export const c = styled.button`
     :active{
         background: #006400;
     }
+`;
+
+export const ButtonContainer = styled.div`
+    display: flex;
 `;
 export const BottomContainer = styled.div`
     height: 10%;

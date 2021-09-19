@@ -1,7 +1,8 @@
 import React from "react";
 import { MDBPagination, MDBPageItem, MDBPageNav, MDBCol, MDBRow } from "mdbreact";
 
-const PaginationPage = ({ currentPage, setCurrentPage, membersCount }) => {
+const PaginationPage = ({ currentPage, setCurrentPage, membersCount, handle}) => {
+
   return (
     <MDBRow>
       <MDBCol>
@@ -14,13 +15,14 @@ const PaginationPage = ({ currentPage, setCurrentPage, membersCount }) => {
               </MDBPageItem>
             )
           }
-          <MDBPageItem>
+          <MDBPageItem style={{marginLeft: '40px !important'}}>
             <MDBPageNav>{currentPage}</MDBPageNav>
           </MDBPageItem>
           {
-            (currentPage) * 10 < membersCount
+            (currentPage) * 30 < membersCount
             && (<MDBPageItem>
-              <MDBPageNav onClick={() => setCurrentPage(currentPage + 1)}>{currentPage + 1}</MDBPageNav>
+              <MDBPageNav onClick={() => setCurrentPage(currentPage + 1, handle())} > {currentPage + 1}
+                </MDBPageNav>
             </MDBPageItem>)
           }
         </MDBPagination>

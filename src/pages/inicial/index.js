@@ -1,7 +1,6 @@
 import React from 'react'
-import{} from './styles'
 import { history } from '../../history'
-import { Register } from '../login/styles'
+import { Register } from './styles'
 import Login from '../login/Login'
 
 const Inicio = () => {
@@ -13,8 +12,8 @@ function  setLogin(){
 }
    return <>
    
-    <Register onClick={() => { setRegister() }}>Register</Register>
-    <Login onClick={() => { setLogin() }}>ENtrar</Login>
+    <Register className='button' onClick={() => { setRegister() }}>Cadastrar</Register>
+    <Login onClick={() => { setLogin() }}>Entrar</Login>
     
     
     </>

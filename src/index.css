@@ -1,7 +1,10 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: #7159c1;
+    background: #373e47;
     color: #fdfdfd;
+    margin: 0;
+    padding: 0;
+    outline: 0;
 }
 h1{
     margin-right: 10px;
@@ -16,7 +19,6 @@ h1{
 }
 
 section {
-  
   position: relative;
   padding: 30%;
   margin: 10px;
@@ -56,59 +58,110 @@ section {
   border-radius: 4px;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
 }
-.row{
 
+.container-data-git{
   width: 100%;
 }
 
-.card {
-    padding: 40px;
-    margin-left: 20px;
-    margin-bottom: 10px;
-    width: 100%;
-    max-width: 960px;
-    display: flex;
-    border-radius: 10px;
-    background-color: aquamarine;
-    text-align: left;
-  }
-  a{
-text-align: center;
-    height: 30px;
-    width: 40;
-    margin: 3%;
-    color: red;
-    font-size: 14px;
-  }
-.nameProject, .description{
-    color: black;
-    font-size: 12px;
-    text-align: left;
-   
+.row{
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
+
+.card {
+    width: 40%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #e5e5e5;
+
+    margin-bottom: 3%;
+
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  }
+  .divpag{
+    display: flex;
+    padding: 5%;
+  }
+  .divpag  li{
+    display: flex;
+    color:#fff;
+    text-align: right;
+    position: relative;
+  }
+
+
+  .button{
+    height: 50px;
+    width: 80%;
+
+    background-color:rgb(194, 193, 193);
+    color: #000000;
+
+    border-radius: 4px;
+
+    font-size: 0.80em;
+
+    text-decoration: none;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 3%;
+  }
+ 
+.button:hover{
+    filter: brightness(90%);
+  }
+
+.svg{
+    height: 0.7em !important;
+  }
+
+.nameProject, .description, .nameuser{
+    color: black;
+    font-size: 12px;   
+}
+
 .description{
-  padding: 2%;
-  width: 60%;
   height: 50%;
-  margin-top: 10px;
-  padding: 4px;
-color: black;
+  width: 90%;
+
+  color: black;
   text-align: left;
   display: flex;
-  
-  
-  
+  font-size: 0.8em;
+  margin-top: 10%;
+
+  overflow: hidden;
 }
 img{
-  width:120px; 
+  width:60%; 
   height:110px;
   display: flex;
   border-radius: 10px;
+
+  margin-top: 1%;
 }
 .nameProject{
-  padding: 10px;
-justify-content: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.90em;
+  margin-top: 5%;
 
+  font-weight: bold;
 }
 .BUTTON_FNB{
   margin-top: 3%;
